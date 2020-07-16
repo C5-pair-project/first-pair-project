@@ -1,0 +1,44 @@
+body{
+	background-image: url('image1.jpg');
+	background-size: 1400px ;
+	background-repeat: no-repeat;
+
+}
+
+header {
+	font-family: Arial ;
+	font-size: 80px;
+	line-height: 1.6;
+	color: white;
+}
+
+sub{
+	font-family: oblique ;
+}
+
+.login{
+	margin-top: 200px ;
+	margin-left: 60px;
+}
+
+.signein{
+	margin-left: 60px;
+}
+
+#newname{
+	margin-top: 200px ;
+	
+}
+
+#register{
+	margin-left: 10px;
+}
+
+.login{
+	width: 10 %;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid white;
+}
