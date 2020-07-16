@@ -1,0 +1,60 @@
+body {
+background-image: url('https://media.gettyimages.com/videos/empty-brown-wood-table-and-snow-falling-with-blur-christmas-tree-video-id963442578?s=640x640');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#titel{
+	font-family: center;
+}
+
+.general {
+	width: 500px;
+	margin: 40px auto ;
+	overflow: auto ;
+	font-family: inherit ;
+}
+.first{
+	position: center ;
+}
+.second {
+	width: 450px ;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	float:left;
+	padding: 3px;
+	border:#666 solid 1px;
+}
+.second img {
+	display: none ;
+	width: 450px;
+	height:500px;
+}
+.second img.active{
+	display: inline-block;
+}
+.prev .next{
+float: left;
+margin-top: 130px;
+cursor: pointer;
+}
+.prev {
+	
+	margin-right: 100px;
+    z-index: 100;
+}
+.next {
+	
+	margin-left: 250px;
+    z-index: 100;
+}
+#text {
+	
+    font-size: 30px;
+    font-style: oblique;
+    font-weight:50px;
+	float: left;
+	margin-top: 250px;
+	
+}
