@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <div id="titel"> <h1> <mark > WELCOME </mark> <sub> TO </sub>OUR<sub> WEB </sub> SITE</h1> </div>
+ 
+    <div id="titel"> 
+     <img id="icon" src="favorite.png">
+     <h1>WELCOME TO OUR <sub><mark><em>rental</em></mark></sub> WEB SITE </h1> 
+    </div>
+    <div id="cart"></div>
     
     <div id="text">
 <ul class='info' id='info1'>
@@ -19,6 +24,7 @@
     <li>Number of rooms = 2 </li>
     <li>Price = 620 DT</li>
     <li>Owner's phone : +216 53 261 408 </li>
+    <button class="fav" class="info" id="bt">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info2'>
     <li>Time to get to camp ≈ 8 min</li>
@@ -26,6 +32,7 @@
     <li>Number of rooms = 3 </li>
     <li>Price = 700 DT</li>
     <li>Owner's phone : +216 20 253 148 </li>
+    <button class="fav" class="info" id="bt1">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info3'>
     <li>Time to get to camp ≈ 11 min</li>
@@ -33,6 +40,7 @@
     <li>Number of rooms = 3 </li>
     <li>Price = 580 DT</li>
     <li>Owner's phone : +216 90 162 635 </li>
+    <button class="fav" class="info" id="bt2">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info4'>
     <li>Time to get to camp ≈ 4 min </li>
@@ -40,6 +48,7 @@
     <li>Number of rooms = 2 </li>
     <li>Price = 630 DT</li>
     <li>Owner's phone : +216 58 120 035 </li>
+    <button class="fav" class="info" id="bt3">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info5'>
     <li>Time to get to camp ≈ 6 min</li>
@@ -47,6 +56,7 @@
     <li>Number of rooms = 3 </li>
     <li>Price = 680 DT</li>
     <li>Owner's phone : +216 25 184 609 </li>
+    <button class="fav" class="info" id="bt4">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info6'>
     <li>Time to get to camp ≈ 14 min </li>
@@ -54,6 +64,7 @@
     <li>Number of rooms = 1 </li>
     <li>Price = 490 DT</li>
     <li>Owner's phone : +216 55 601 403 </li>
+    <button class="fav" class="info" id="bt5">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info7'>
     <li>Time to get to camp ≈ 7 min </li>
@@ -61,6 +72,7 @@
     <li>Number of rooms = 2 </li>
     <li>Price = 560 DT</li>
     <li>Owner's phone : +216 92 117 563 </li>
+    <button class="fav" class="info" id="bt6">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info8'>
     <li>Time to get to camp ≈ 9 min </li>
@@ -68,6 +80,7 @@
     <li>Number of rooms = 3 </li>
     <li>Price = 580 DT</li>
     <li>Owner's phone : +216 96 127 830 </li>
+    <button class="fav" class="info" id="bt7">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info9'>
     <li>Time to get to camp ≈ 15 min</li>
@@ -75,6 +88,7 @@
     <li>Number of rooms = 2 </li>
     <li>Price = 450 DT</li>
     <li>Owner's phone : +216 23 618 427 </li>
+    <button class="fav" class="info" id="bt8">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info10'>
     <li>Time to get to camp ≈ 6 min</li>
@@ -82,6 +96,7 @@
     <li>Number of rooms = 2 </li>
     <li>Price = 520 DT</li>
     <li>Owner's phone : +216 25 481 275 </li>
+    <button class="fav" class="info" id="bt9">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info11'>
     <li>Time to get to camp ≈ 11 min </li>
@@ -89,6 +104,7 @@
     <li>Number of rooms = 1 </li>
     <li>Price = 420 DT</li>
     <li>Owner's phone : +216 96 315 824 </li>
+    <button class="fav" class="info" id="bt10">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 <ul class='info' id='info12'>
     <li>Time to get to camp ≈ 7 min </li>
@@ -96,6 +112,7 @@
     <li>Number of rooms = 3 </li>
     <li>Price = 600 DT</li>
     <li>Owner's phone : +216 25 143 678 </li>
+    <button class="fav" class="info" id="bt11">ADD TO FAVORITE <em id='love'> ❤ </em> </button>
 </ul>
 
 </div>
@@ -105,17 +122,17 @@
 <img src="arrow-left.png" class="prev" alt="prev">
   <div class="second">
    <img id='im1' src="h1.jpg" class="active">
-   <img src="h2.jpg">
-   <img src="h3.jpg">
-   <img src="h4.jpg">
-   <img src="h5.jpg">
-   <img src="h6.jpg">
-   <img src="h7.jpg">
-   <img src="h8.jpeg">
-   <img src="h9.jpg">
-   <img src="h10.jpg">
-   <img src="h11.jpg">
-   <img src="h12.jpeg">
+   <img id='im2' src="h2.jpg">
+   <img id='im3' src="h3.jpg">
+   <img id='im4' src="h4.jpg">
+   <img id='im5' src="h5.jpg">
+   <img id='im6' src="h6.jpg">
+   <img id='im7' src="h7.jpg">
+   <img id='im8' src="h8.jpeg">
+   <img id='im9' src="h9.jpg">
+   <img id='im10' src="h10.jpg">
+   <img id='im11' src="h11.jpg">
+   <img id='im12' src="h12.jpeg">
  </div>
 <img src="arrow-right.png" class="next" alt="next">
 </div>

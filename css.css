@@ -1,11 +1,11 @@
 body {
-background-image: url('https://media.gettyimages.com/videos/empty-brown-wood-table-and-snow-falling-with-blur-christmas-tree-video-id963442578?s=640x640');
+background-image: url('https://static.vecteezy.com/system/resources/previews/000/204/582/non_2x/summer-themed-blur-background-vector.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 
 }
 #titel{
-	font-family: center;
+	text-align: center;
 }
 
 .general {
@@ -27,25 +27,27 @@ background-size: cover;
 	border:#666 solid 1px;
 }
 .second img {
+	cursor: pointer;
 	display: none ;
 	width: 450px;
 	height:500px;
 }
 .second img.active{
+	cursor: pointer;
 	display: inline-block;
 }
 .prev .next{
-float: left;
-margin-top: 130px;
-cursor: pointer;
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
 }
 .prev {
-	
+	cursor: pointer;
 	margin-right: 100px;
     z-index: 100;
 }
 .next {
-	
+	cursor: pointer;
 	margin-left: 250px;
     z-index: 100;
 }
@@ -55,6 +57,35 @@ cursor: pointer;
     font-style: oblique;
     font-weight:50px;
 	float: left;
-	margin-top: 250px;
+	margin-top: 200px;
 	
+}
+.fav{
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: skyblue ;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white ;
+
+}
+.fav:active {
+  background-color: skyblue ;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
+  color : yellow;
+}
+#icon {
+	float: left;
+	width: 60px;
+	height:70px;
+	cursor: pointer;
+}
+#love{
+	color: skyblue ;
+
 }
