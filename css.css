@@ -1,6 +1,8 @@
 body{
-	background-image: url('image1.jpg');
-	background-size: 1400px ;
+	background-image: url('bd.jpg');
+	background-position: center;
+	background-size: cover ;
+	height: 200px;
 	background-repeat: no-repeat;
 
 }
@@ -10,6 +12,7 @@ header {
 	font-size: 80px;
 	line-height: 1.6;
 	color: white;
+	margin-left: 60px;
 }
 
 sub{
@@ -17,28 +20,79 @@ sub{
 }
 
 .login{
-	margin-top: 200px ;
-	margin-left: 60px;
+	margin-top: 10px ;
+	margin-left: 500px;
 }
 
 .signein{
-	margin-left: 60px;
+	margin-top: 10px ;
+	margin-left: 500px;
+}
+
+#log{
+	background-color: yellow;
+ 	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 30%;
+}
+#signe{
+	background-color: burlywood;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 30%;
+}
+#register{
+  	background-color: saddlebrown;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 30%;
+}
+
+#name{
+  	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border-bottom: solid;
+  	cursor: pointer;
+  	width: 30%;	
+}
+
+#pass{
+  	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border-bottom: solid;
+  	cursor: pointer;
+  	width: 30%;	
 }
 
 #newname{
-	margin-top: 200px ;
-	
+  	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border-bottom: solid;
+  	cursor: pointer;
+  	width: 30%;	
 }
 
-#register{
-	margin-left: 10px;
-}
-
-.login{
-	width: 10 %;
-	overflow: hidden;
-	font-size: 20px;
-	padding: 8px 0;
-	margin: 8px 0;
-	border-bottom: 1px solid white;
+#newpass{
+  	background-color: white;
+  	color: black;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border-bottom: solid;
+  	cursor: pointer;
+  	width: 30%;	
 }
